@@ -1,0 +1,50 @@
+.choiceDiv {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    background-color: #A6E3E9;
+    height: 25vh;
+    width: 20vw;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    z-index: 2;
+}
+
+.yellowButton{
+    background-color: #ebd85e;;
+}
+
+.redButton{
+    background-color: #db4f40;
+}
+
+.greenButton{
+    background-color: #3ace6c;;
+}
+
+.blueButton{
+    background-color: #459adf;
+}
+
+.choice-button {
+    width: 4rem;
+    height: 2rem;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.choices{
+    padding: 1.2rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

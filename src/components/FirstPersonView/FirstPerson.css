@@ -1,0 +1,14 @@
+/* first person view absolute positioning */
+.first_person_view{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    height: 210px;
+    width: 400px;
+}
+
+.name{
+    position: absolute;
+    bottom:0%;
+    left: 40%
+}
